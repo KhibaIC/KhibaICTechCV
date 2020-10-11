@@ -1,0 +1,88 @@
+/*navigation style styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Baloo;
+}
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+
+}
+
+.left-side{
+   display: flex;
+}
+
+.navigator >.left-side > div{
+   margin-left: 20px ;
+   font-size: 0.9em;
+   text-transform: uppercase;
+
+
+}
+
+.navigator-link{
+   height: 22px;
+   border-bottom:1px solid transparent;
+   transition: border-bottom 0.5s;
+}
+.navigator-link a {
+   color: #8a8a8a;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.navigator-link:hover{
+   border-bottom: 1px solid black;
+}
+
+.navigator-link:hover a{
+   color: black;
+}
+
+.welcome-text {
+    text-align: center;
+    color: rgb(177, 172, 204);
+    font-size: 50px;
+    margin-top: 20%;
+    text-shadow: blue 1px 1px 1px;
+    font-style: oblique;
+}
+
+/*Animation Area*/
+body{
+    background-image: url("images/pic.gif");
+    height: 100%;
+    width:100% ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-content>h1{
+    color: rgb(199, 214, 211);
+    text-shadow: blue;
+
+}
+.about-content>h3{
+    color: rgb(199, 214, 211);
+    text-shadow: blue;
+
+}
+.about-content>p{
+    color: rgb(199, 214, 211);
+    text-shadow: blue;
+
+}
+.about-content>h2{
+    color: rgb(199, 214, 211);
+    text-shadow: blue;
+
+}
+.itumeleng-nav{
+    color: rgb(199, 214, 211);
+    text-shadow: blue;
+}
+
